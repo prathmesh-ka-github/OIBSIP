@@ -1,0 +1,70 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vmax;
+    margin-bottom: 4vmax;
+}
+.twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.input-bar {
+    all: unset;
+    padding: 14px 14px 14px 40px;
+    width: 800px;
+    font-size: 24px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #222222;
+}
+.search-bar-logo {
+    background-color: #8a2be2;
+    padding: 22px 35px 22px 35px;
+    border-radius: 0 10px 10px 0;
+}
+.main-dis {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.twitter {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.twitter-txt {
+    color:#a885da;
+}
+button {
+    all: unset;
+    color: white;
+    background-color: #8a2be2;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .input-bar {
+        width: 300px;
+    }
+}

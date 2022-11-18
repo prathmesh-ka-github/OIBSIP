@@ -1,8 +1,8 @@
 .nav-container {
     background-color: transparent;
-    margin: 2vmax 12vmax 0 12vmax;
+    margin: 0.5vmax 12vmax 0 12vmax;
     padding: 0;
-    height: 5vmax;
+    height: 4vmax;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 600px) {
     .nav-container {
-        background-color: #2a2a2a;
+        background-color: #222222;
         margin: 0;
         padding: 0 10px 0 10px;
         height: 9vmax;
