@@ -3,45 +3,53 @@
     flex-direction: column;
     align-items: center;
     margin-top: 6vmax;
-    margin-bottom: 4vmax;
+    margin-bottom: 25vmax;
 }
+
 .twitter {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .input-container {
     padding-top: 50px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
 }
+
 .input-bar {
     all: unset;
     padding: 14px 14px 14px 40px;
     width: 800px;
     font-size: 24px;
     border-radius: 10px 0px 0px 10px;
-    background-color: #222222;
+    background-color: #1d1c1c;
 }
+
 .search-bar-logo {
     background-color: #8a2be2;
     padding: 22px 35px 22px 35px;
     border-radius: 0 10px 10px 0;
 }
+
 .main-dis {
     padding-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .twitter {
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
 .twitter-txt {
-    color:#a885da;
+    color: #a885da;
 }
+
 button {
     all: unset;
     color: white;
@@ -50,21 +58,48 @@ button {
     border-radius: 10px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #151515;
+    border-radius: 10px;
+}
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #222222;
 
-
-
-
-
-
-
-
-
+}
 
 @media only screen and (max-width: 600px) {
     .input-bar {
-        width: 300px;
+        width: 210px;
+        padding: 10px 10px 10px 40px;
+        font-size: 20px;
+        border-radius: 10px 0px 0px 10px;
+        background-color: #222222;
+    }
+    .hero-container {
+        margin-top: 17vmax;
+    }
+    .search-bar-logo {
+        background-color: #8a2be2;
+        padding: 15px 35px 15px 35px;
+        border-radius: 0 10px 10px 0;
+    }
+    .dis {
+        font-size: 15px;
+        margin: 0 50px 0 50px;
+        display: flex;
+
     }
 }
