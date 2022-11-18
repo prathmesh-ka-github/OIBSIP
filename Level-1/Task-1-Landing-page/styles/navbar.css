@@ -10,6 +10,7 @@
 }
 .logo-img {
     width: 200px;
+    cursor: pointer;
 }
 .logo-container {
     display: flex;
@@ -20,21 +21,12 @@
     margin-left: 2vmax;
 }
 .login {
-    background-color: blueviolet;
     color: white;
     padding: 20px;
     border-radius: 50px;
 }
 
-
-
-
-
-
-
-
 /*!         For mobile devices          */
-
 @media only screen and (max-width: 600px) {
     .nav-container {
         background-color: #222222;
