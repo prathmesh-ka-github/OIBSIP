@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    height: 280px;
+    height: 270px;
     background-color: #1c1c1c;
     color: #a9a9a9cc;
     justify-content: center;
@@ -33,12 +33,12 @@ span {
     color: white;
 }
 .chopper-img-container {
-    height: 250px;
+    height: 100px;
 }
 .chopper-img {
     position: relative;
     bottom: 100px;
-    height: 360px;
+    height: 270px;
 }
 .row {
     display: flex;
