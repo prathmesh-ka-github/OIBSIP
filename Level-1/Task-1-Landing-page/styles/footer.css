@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    height: 260px;
+    height: 280px;
     background-color: #1c1c1c;
     color: #a9a9a9cc;
     justify-content: center;
@@ -32,8 +32,38 @@ span {
 .linkss:hover {
     color: white;
 }
+.chopper-img-container {
+    height: 250px;
+}
 .chopper-img {
     position: relative;
     bottom: 100px;
     height: 360px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .chopper-img {
+        height: 0px;
+    }
+    .content {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    footer {
+        height: auto;
+    }
+    .linkss {
+        font-size: 10px;
+    }
+    .row {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .col span {
+        font-size: 20px;
+    }
 }
