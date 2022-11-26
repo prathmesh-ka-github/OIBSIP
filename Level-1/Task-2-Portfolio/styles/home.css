@@ -56,12 +56,12 @@
 
     background: linear-gradient(90deg, #5c69ff 0%, #090078 100%);
 
-    background: -moz-linear-gradient(90deg, hsla(235, 100%, 68%, 1) 0%, #090078 100%);
+    background: -moz-linear-gradient(90deg, #5c69ff 0%, #090078 100%);
 
-    background: -webkit-linear-gradient(90deg, hsla(235, 100%, 68%, 1) 0%, #090078 100%);
+    background: -webkit-linear-gradient(90deg, #5c69ff 0%, #090078 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C69FF", endColorstr="#090078", GradientType=1 );
-    height: 120vh;
+    height: 140vh;
     font-size: 26px;
     display: flex;
     margin-top: 70px;
@@ -71,7 +71,6 @@
 .head {
     font-size: 50px;
     color: white;
-
 }
 
 .about {
@@ -83,6 +82,44 @@
     background-color: #ffffff26;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(350px);
+    border-radius: 50px;
+}
+
+.book-img-container{
+    position: absolute;
+    right: 200px;
+    top: 280px;
+}
+
+.book-img{
+    width: 320px;
+    border-radius: 50px;
+}
+
+
+.hobbys {
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    width: 850px;
+    padding: 20px;
+    background-color: #ffffff26;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(350px);
+    border-radius: 50px;
+}
+
+.hobby-img-container{
+    position: absolute;
+    left: 150px;
+    top: 700px;
+}
+ul {
+    margin: 0px;
+}
+
+.hobby-img{
+    width: 500px;
     border-radius: 50px;
 }
 
