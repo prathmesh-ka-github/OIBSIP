@@ -16,7 +16,7 @@
     width: 100vw;
     background-color: white;
 
-    animation: 1s ease-out 0s 1 slideInLeft;
+    animation: 700ms ease-out 0s 1 slideInLeft;
 }
 
 .nav-bar-container a {
@@ -37,10 +37,10 @@
 /*          ONLOAD ANIMATION          */
 @keyframes slideInLeft {
     0% {
-      transform: translateY(-100%);
+      opacity: 0;
     }
     100% {
-      transform: translateY(0);
+      opacity: 1;
     }
 }
 
