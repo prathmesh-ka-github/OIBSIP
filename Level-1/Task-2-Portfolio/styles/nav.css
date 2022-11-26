@@ -14,7 +14,7 @@
     margin-bottom: 50px;
     position: fixed;
     width: 100vw;
-    background-color: white;
+    background-color: #ffffffdb;
 
     animation: 700ms ease-out 0s 1 slideInLeft;
 }
