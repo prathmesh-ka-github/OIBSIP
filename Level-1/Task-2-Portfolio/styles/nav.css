@@ -19,8 +19,9 @@
     animation: 700ms ease-out 0s 1 slideInLeft;
 }
 
-.nav-bar-container a {
+a {
     all: unset;
+    cursor: pointer;
 }
 
 .nav-elements {
