@@ -1,0 +1,87 @@
+.main-container {
+    position: relative;
+    top: 70px;
+}
+
+.absolute {
+    position: absolute;
+    top: 6vw;
+    left: 7vw;
+    width: 80vw;
+    cursor: pointer;
+    transition: left 1s;
+    height: 30vh;
+}
+.main-container button:hover {
+    background-color: #1a0da2;
+}
+
+.main-container button {
+    position: absolute;
+    top: 18vw;
+    left: 7vw;
+    transition: background-color 300ms;
+    border: none;
+    background-color: #0818c9;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.heading {
+    font-size: 80px;
+}
+
+.absolute:hover .subtxt{
+    left: 60px;
+}
+.absolute:hover{
+    left: 5vw;
+}
+.main-container button:hover .subtxt{
+    left: 60px;
+}
+
+
+.subtxt {
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    transition: left 1s;
+}
+.about-container {
+    background: #5c69ff;
+
+    background: linear-gradient(90deg, #5c69ff 0%, #090078 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(235, 100%, 68%, 1) 0%, #090078 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(235, 100%, 68%, 1) 0%, #090078 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C69FF", endColorstr="#090078", GradientType=1 );
+    height: 120vh;
+    display: flex;
+    margin-top: 70px;
+    border-radius: 140px 0 0 0;
+}
+
+@media screen and (max-width:600px) {
+    .heading {
+        font-size: 30px;
+        width: 250px;
+    }
+    .subtxt {
+        font-size: 17px;
+        margin-top: 120px;
+        color: white;
+    }
+    .about-container {
+        border-radius: 30px 0 0 0;
+    }
+    .main-container button {
+        margin-top: 10vw;
+        font-size: 14px;
+        padding: 12px;
+    }
+}
