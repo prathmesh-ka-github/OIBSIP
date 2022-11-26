@@ -11,6 +11,7 @@
     cursor: pointer;
     transition: left 1s;
     height: 30vh;
+    z-index: 5;
 }
 .main-container button:hover {
     background-color: #1a0da2;
@@ -18,7 +19,7 @@
 
 .main-container button {
     position: absolute;
-    top: 18vw;
+    top: 300px;
     left: 7vw;
     transition: background-color 300ms;
     border: none;
@@ -66,10 +67,23 @@
     margin-top: 70px;
     border-radius: 140px 0 0 0;
     position: relative;
-    flex-direction: column;
 }
 .head {
+    font-size: 50px;
     color: white;
+
+}
+
+.about {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 850px;
+    padding: 20px;
+    background-color: #ffffff26;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(350px);
+    border-radius: 50px;
 }
 
 @media screen and (max-width:600px) {
@@ -89,5 +103,12 @@
         margin-top: 10vw;
         font-size: 14px;
         padding: 12px;
+    }
+    .head {
+        margin-top: 250px;
+        font-size: 30px;
+    }
+    .about-container p {
+        font-size: 20px;
     }
 }
