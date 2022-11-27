@@ -19,9 +19,18 @@
     animation: 700ms ease-out 0s 1 slideInLeft;
 }
 
+.nav-links {
+    display: flex;
+}
+
+.ham-menu {
+    display: none;
+}
+
 a {
     all: unset;
     cursor: pointer;
+    margin: 5px 30px;
 }
 
 .nav-elements {
@@ -49,7 +58,15 @@ a {
     .nav-elements{
         display: none;
     }
+    .nav-links a{
+        display: none;
+    }
     .nav-bar-container {
         height: 60px;
+    }
+    .ham-menu{
+        display: block;
+        cursor: pointer;
+        margin: 0 10px;
     }
 }
