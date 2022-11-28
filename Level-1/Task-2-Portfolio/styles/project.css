@@ -1,13 +1,31 @@
 .pro-container {
-    padding-top: 70px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 80vh;
 }
 
 .row {
     display: flex;
     justify-content: space-evenly;
     width: 80vw;
-    margin: 60px 0;
+    margin: 50px 0;
+}
+
+.card:hover {
+    transform: translateY(-40px);
+}
+
+.card {
+    transition: transform 300ms;
+    width: 200px;
+    height: 300px;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #5c69ff;
+    display: flex;
+    justify-content: center;
 }
