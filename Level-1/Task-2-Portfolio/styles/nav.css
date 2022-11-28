@@ -4,7 +4,8 @@
     -moz-box-shadow: 0px 0px 96px -25px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 96px -25px rgba(0,0,0,0.75);
 
-    height: 70px;
+    height: 60px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,7 +17,7 @@
     width: 100vw;
     background-color: #ffffffdb;
 
-    animation: 700ms ease-out 0s 1 slideInLeft;
+    animation: 500ms ease-out 0s 1 onload;
 }
 
 .nav-links {
@@ -45,7 +46,7 @@ a {
 }
 
 /*          ONLOAD ANIMATION          */
-@keyframes slideInLeft {
+@keyframes onload {
     0% {
       opacity: 0;
     }

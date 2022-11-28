@@ -12,6 +12,7 @@
     transition: left 1s;
     height: 40vh;
     z-index: 5;
+    animation: 1s ease-out 0s 1 onload;
 }
 .main-container a:hover {
     background-color: #1a0da2;
@@ -59,7 +60,6 @@
 
     background: -moz-linear-gradient(90deg, #5c69ff 0%, #090078 100%);
 
-    background: -webkit-linear-gradient(90deg, #5c69ff 0%, #090078 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C69FF", endColorstr="#090078", GradientType=1 );
     font-size: 26px;
@@ -137,7 +137,7 @@ ul {
 .linkss {
     color: black;
     border-bottom: transparent 3px solid;
-    transition: color 300ms,border-bottom 400ms ;
+    transition: color 300ms;
 }
 
 .linkss:hover {
