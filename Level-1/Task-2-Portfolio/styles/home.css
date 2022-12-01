@@ -55,11 +55,8 @@
 /*          ABOUT         */
 .about-container {
     background: #5c69ff;
-
     background: linear-gradient(0deg, #5c69ff 0%, #090078 100%);
-
     background: -moz-linear-gradient(90deg, #5c69ff 0%, #090078 100%);
-
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C69FF", endColorstr="#090078", GradientType=1 );
     font-size: 26px;
