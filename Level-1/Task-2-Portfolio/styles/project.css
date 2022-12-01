@@ -15,17 +15,34 @@
 
 .card:hover {
     transform: translateY(-40px) translateX(15px);
+    background-color: #4c58d4;
+
 }
 
 .card {
-    transition: transform 300ms;
+    transition: transform 300ms, background-color 300ms;
     width: 400px;
     height: 300px;
     color: white;
     border-radius: 20px;
     padding: 20px;
-    font-size: 24px;
-    background-color: #5c69ff;
+    font-size: 30px;
+    background-color: #5866fc;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    -webkit-box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
+    box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
+}
+
+.card a img {
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+.card a {
+    margin-top: 15px;
 }
