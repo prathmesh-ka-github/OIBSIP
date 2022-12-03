@@ -51,6 +51,7 @@ a {
 }
 
 .ham-links {
+    height: 0;
     position: absolute;
     top: 60px;
     background-color: white;
@@ -65,9 +66,7 @@ a {
     all: unset;
     cursor: pointer;
     margin: 5px 30px;
-}
-.ham-menu:hover .ham-links {
-    display: block;
+    width: 100%;
 }
 /*          ONLOAD ANIMATION          */
 @keyframes onload {
