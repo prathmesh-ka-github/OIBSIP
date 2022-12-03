@@ -4,8 +4,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 3 - Temperature converter</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');</style>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    Temperature
+        <div class="main">
+            <div class="head">TEMPERATURE CONVERTER</div>
+            <div class="in">
+                <input id="input" class="input" type="number">
+                <div class="radios">
+                    <div>Convert to - &nbsp;</div>
+                    <div class="celcius">    
+                        <input id="cel" value="Celcius" name="temp" type="radio">
+                        <label for="cel" class="radio-label">Celcius &nbsp;</label>
+                    </div>
+                        
+                    <div class="faranheit">
+                        <input id="faran" value="Faranheit" name="temp" type="radio">
+                        <label for="faran" class="radio-label">Faranheit</label>
+                    </div>
+                </div>
+                <div class="convert">
+                    <button onclick="convert()" id="btn" class="btn">Convert!</button>
+                </div>
+            </div>
+            <div id="output" class="out">
+
+            </div>
+        </div>
 </body>
 </html>

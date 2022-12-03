@@ -46,6 +46,10 @@ a {
     border-bottom: 5px solid #0000ff;
 }
 
+.current {
+    border-bottom: 5px solid #0000ff;
+}
+
 /*          ONLOAD ANIMATION          */
 @keyframes onload {
     0% {

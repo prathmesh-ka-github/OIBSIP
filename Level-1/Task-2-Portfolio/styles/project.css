@@ -14,18 +14,17 @@
 }
 
 .card:hover {
-    transform: translateY(-40px) translateX(15px);
+    transform: translateY(-30px) translateX(10px);
     background-color: #4c58d4;
-
 }
 
 .card {
-    transition: transform 300ms, background-color 300ms;
-    width: 400px;
-    height: 300px;
+    transition: transform 300ms, background-color 300ms, box-shadow 300ms;
+    width: 420px;
+    height: 320px;
     color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     background-color: #5866fc;
     display: flex;
@@ -33,16 +32,16 @@
     align-items: center;
     flex-direction: column;
 
-    -webkit-box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
-    box-shadow: -9px 10px 52px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -7px 10px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 10px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 38px 0px rgba(0,0,0,0.75);
 }
 
 .card a img {
-    width: 400px;
-    height: 260px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
-.card a {
-    margin-top: 15px;
+.pro-img-container {
+    margin: 15px 10 0 10 !important;
 }
