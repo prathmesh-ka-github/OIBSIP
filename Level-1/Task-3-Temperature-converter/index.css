@@ -85,3 +85,22 @@ body {
     margin-top: 20px;
     border-bottom: 2px solid #37fa44;
 }
+
+@media screen and (max-width:600px) {
+    .main {
+        width: 100vw;
+    }
+    .input {
+        width: 90vw;
+    }
+    .radios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .celcius {
+        margin-top: 10px;
+    }
+    .faranheit {
+        margin-top: 10px;
+    }
+}
