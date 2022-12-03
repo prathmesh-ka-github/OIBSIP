@@ -50,6 +50,25 @@ a {
     border-bottom: 5px solid #0000ff;
 }
 
+.ham-links {
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.ham-elements {
+    margin: 20px 20px;
+}
+.ham-links button {
+    all: unset;
+    cursor: pointer;
+    margin: 5px 30px;
+}
+.ham-menu:hover .ham-links {
+    display: block;
+}
 /*          ONLOAD ANIMATION          */
 @keyframes onload {
     0% {
@@ -61,12 +80,18 @@ a {
 }
 
 @media screen and (max-width:600px) {
-    .nav-elements{
-        display: none;
-    }
+
     .nav-links a{
         display: none;
     }
+    .nav-links button{
+        display: none;
+    }
+    .ham-links a {
+        display: block;
+    }
+
+
     .nav-bar-container {
         height: 60px;
     }

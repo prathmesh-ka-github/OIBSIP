@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/hire.css">
+
+    <script src="index.js"></script>
 </head>
 <body>
     <navbar class="nav-bar-container">
@@ -27,8 +29,13 @@
             <a href="projects.html"> <div class="nav-elements">PROJECTS</div></a>
             <a href="hire.html"> <div class="nav-elements current">HIRE ME</div></a>
             <div class="ham-menu">
-                <img src="essentials/menu-light.png" alt="menu">
+                <img onclick="ham()" src="essentials/menu-light.png" alt="menu">
             </div>
+        </div>
+        <div class="ham-links" id="ham-menu-id">
+            <a href="index.html"><div class="ham-elements ">HOME</div></a>
+            <a href="projects.html"> <div class="ham-elements">PROJECTS</div></a>
+            <a href="hire.html"> <div class="ham-elements current">HIRE ME</div></a>
         </div>
     </navbar>
     <div class="cv-container">

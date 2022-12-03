@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/footer.css">
+
+    <script src="index.js"></script>
 </head>
 <body>
     <navbar class="nav-bar-container">
@@ -27,8 +29,14 @@
             <button onclick="scrollConnect()"> <div class="nav-elements">CONNECT</div></button>
             <a href="hire.html"> <div class="nav-elements">HIRE ME</div></a>
             <div class="ham-menu">
-                <img src="essentials/menu-light.png" alt="menu">
+                <img onclick="ham()" src="essentials/menu-light.png" alt="menu">
             </div>
+        </div>
+        <div class="ham-links" id="ham-menu-id">
+            <a href="index.html"><div class="ham-elements current">HOME</div></a>
+            <a href="projects.html"> <div class="ham-elements">PROJECTS</div></a>
+            <button onclick="scrollConnect(), ham()"> <div class="ham-elements">CONNECT</div></button>
+            <a href="hire.html"> <div class="ham-elements">HIRE ME</div></a>
         </div>
     </navbar>
     <main class="main-container">
