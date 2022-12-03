@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
 }
 
 .row {
@@ -44,4 +43,18 @@
 }
 .pro-img-container {
     margin: 15px 10 0 10 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .pro-container {
+        margin-bottom: 50px;
+    }
+    .row {
+        flex-direction: column;
+        margin: 0;
+    }
+    .card {
+        width: 85vw;
+        margin-top: 50px;
+    }
 }
