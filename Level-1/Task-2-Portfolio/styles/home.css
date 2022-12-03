@@ -148,7 +148,7 @@ ul {
     }
     .subtxt {
         font-size: 17px;
-        margin-top: 120px;
+        margin-top: 80px;
         color: white;
         top: 120px;
     }
@@ -163,6 +163,7 @@ ul {
     }
     .absolute {
         height: 40vh;
+        
     }
     .head {
         margin-top: 250px;
@@ -174,6 +175,7 @@ ul {
     .about {
         width: 300px;
         left: 20px;
+        margin: 0 20px 0 20px;
     }
     .hobbys {
         width: 300px;
@@ -182,6 +184,7 @@ ul {
     .socials {
         width: 300px;
         left: 20px;
+        margin: 0 20px 0 20px;
     }
     .book-img-container{
         display: none;

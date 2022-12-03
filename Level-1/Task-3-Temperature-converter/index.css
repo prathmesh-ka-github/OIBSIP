@@ -1,0 +1,87 @@
+body {
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+    font-size: 28;
+    font-weight: 500;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 160px;
+    background-color: white;
+}
+.head {
+    font-size: 38;
+    margin: 20px 30px;
+}
+.input {
+    all: unset;
+    border-bottom: black solid 1px;
+    margin-bottom: 30px;
+    width: 500px;
+    text-align: center;
+    padding: 8px;
+}
+.in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radios {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.radios input {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+} 
+
+.radio-label {
+    display: inline-block;
+    background-color: rgb(239, 239, 239);
+    padding: 10px 20px;
+    font-family: Raleway, sans-serif, Arial;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-right: 20px;
+    transition: all 200ms;
+    border: 1px solid black;
+}
+
+.celcius input:checked + label {
+    background-color:#cbcbcb;
+}
+
+.faranheit input:checked + label {
+    background-color:#cbcbcb;
+}
+
+.btn {
+    all: unset;
+    padding: 20px 40px;
+    background-color: #ccc;
+    border-radius: 40px;
+    transition: background-color 200ms;
+}
+.btn:hover {
+    background-color: #c3c2c2;
+}
+.btn:focus {
+    background-color: #a4ffaa;
+}
+
+.out {
+    padding: 5px;
+    margin-top: 20px;
+    border-bottom: 2px solid #37fa44;
+}
