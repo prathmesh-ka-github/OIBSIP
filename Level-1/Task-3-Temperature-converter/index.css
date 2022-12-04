@@ -3,12 +3,10 @@ body {
     font-size: 28;
     font-weight: 500;
     margin: 0;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    flex-direction: row;
 }
 .main {
     border: 2px solid black;
@@ -17,6 +15,7 @@ body {
     align-items: center;
     padding: 60px 160px;
     background-color: white;
+    margin-left: 100px;
 }
 .head {
     font-size: 38;
@@ -83,10 +82,19 @@ body {
 .out {
     padding: 5px;
     margin-top: 20px;
-    border-bottom: 2px solid #37fa44;
+    border-bottom: 3px solid #37fa44;
+    font-weight: 800;
+    font-size: 28px;
+}
+.image-container img{
+    width: 500px;
 }
 
 @media screen and (max-width:600px) {
+    body {
+    justify-content: none;
+    flex-direction: column;
+    }
     .main {
         width: 100vw;
     }
